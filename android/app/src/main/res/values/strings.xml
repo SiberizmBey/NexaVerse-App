@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NexaVerse</string>
+    <string name="title_activity_main">NexaVerse</string>
+    <string name="package_name">com.nexabag.verse</string>
+    <string name="custom_url_scheme">com.nexabag.verse</string>
+</resources>

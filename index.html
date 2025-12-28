@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>My App Store</title>
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fab fa-steam"></i> <span>STEAM</span>
+            </div>
+            <nav class="menu">
+                <a href="#" class="active"><i class="fas fa-store"></i> STORE</a>
+                <a href="#"><i class="fas fa-layer-group"></i> LIBRARY</a>
+                <a href="#"><i class="fas fa-users"></i> COMMUNITY</a>
+                <a href="#"><i class="fas fa-user"></i> PROFILE</a>
+            </nav>
+            <div class="sidebar-section">
+                <p>CATEGORIES</p>
+                <a href="#">Points Shop</a>
+                <a href="#">News</a>
+            </div>
+            <div class="friends-btn">
+                <i class="fas fa-comment"></i> Friends Chat
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search your apps...">
+                </div>
+            </header>
+
+            <div class="hero-banner">
+                <div class="hero-info">
+                    <span class="tag">FEATURED & RECOMMENDED</span>
+                    <h1>COUNTER STRIKE 2</h1>
+                    <div class="hero-meta">
+                        <span>FPS</span><span>MULTIPLAYER</span><span>ACTION</span>
+                    </div>
+                </div>
+            </div>
+
+            <section class="grid-section">
+                <div class="section-title">
+                    <h3>SPECIAL OFFERS</h3>
+                    <a href="#">Browse All</a>
+                </div>
+                <div class="app-grid">
+                    <div class="app-card">
+                        <div class="card-img" style="background-image: url('https://shared.fastly.steamstatic.com/store_images/library/813780/header.jpg');">
+                            <span class="discount">-85%</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>PLANET ZOO</h4>
+                            <p>Midweek Deal</p>
+                        </div>
+                    </div>
+                    <div class="app-card">
+                        <div class="card-img" style="background-image: url('https://shared.fastly.steamstatic.com/store_images/library/750920/header.jpg');">
+                            <span class="discount">-25%</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>TOMB RAIDER</h4>
+                            <p>Today's Deal</p>
+                        </div>
+                    </div>
+                    <div class="app-card">
+                        <div class="card-img" style="background-image: url('https://shared.fastly.steamstatic.com/store_images/library/294100/header.jpg');">
+                            <span class="discount">-70%</span>
+                        </div>
+                        <div class="card-body">
+                            <h4>RIMWORLD</h4>
+                            <p>Special Offer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

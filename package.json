@@ -1,0 +1,27 @@
+{
+  "name": "nexaverse",
+  "version": "1.0.0",
+  "description": "NexaVerse App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --dir"
+  },
+  "build": {
+    "appId": "com.nexabag.verse",
+    "productName": "NexaVerse",
+    "win": {
+      "target": "portable",
+      "icon": "icon.png"
+    },
+    "electronVersion": "39.2.7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "electron": "39.2.7",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0"
+  }
+}
